@@ -1,20 +1,59 @@
-# Data Visualization Dashboard
+﻿# AI Model Performance Dashboard
 
 ## Overview
 
-The **Data Visualization Dashboard** is an interactive web application built using Streamlit that allows users to visualize and explore AI model performance metrics. This dashboard provides insights into various performance metrics such as accuracy, precision, recall, and F1 score, enabling users to make informed decisions based on model evaluations.
+AI Model Performance Dashboard is a Streamlit-based analytics project for reviewing and comparing AI model evaluation metrics in an interactive browser interface.
 
-## Features
+This project is positioned as a recruiter-ready data visualization and machine learning reporting portfolio piece. It allows users to compare model accuracy, precision, recall, and F1 score through a clean dashboard experience with metric cards, charts, and summary tables.
 
-- **Interactive Filters**: Users can select specific models and performance metrics to customize their view.
-- **Dynamic Visualizations**: Displays bar charts for selected model metrics and overall performance metrics.
-- **Real-Time Data Exploration**: The dashboard updates visualizations based on user selections in real-time.
-- **Summary Statistics**: Provides an overview of average performance metrics for all models.
+## Real-World Business Use Case
 
-## Technologies Used
+This project maps to practical analytics and machine learning workflows used by:
 
-- **Python**: The programming language used for implementation.
-- **Streamlit**: A framework for building interactive web applications for data science.
-- **Pandas**: For data manipulation and analysis.
-- **Matplotlib**: For creating static, animated, and interactive visualizations.
-- **Seaborn**: For enhanced statistical data visualization.
+- Data Analysts
+- Machine Learning Engineers
+- AI Product Teams
+- Technical Stakeholders Reviewing Model Quality
+- Students Building AI And Data Portfolios
+
+A team may need to answer questions such as:
+
+- Which model performs best overall?
+- How do precision and recall differ across models?
+- Which metric should be prioritized for a given use case?
+- How can model performance be presented clearly to decision-makers?
+
+This dashboard is useful for model review, reporting, portfolio presentation, and lightweight experiment comparison.
+
+## Key Features
+
+- Interactive Model Filter
+- Metric Selection Sidebar
+- Metric Summary Cards
+- Cross-Model Comparison Chart
+- Selected Model Detail Table
+- Overall Performance Table
+- Accuracy Snapshot Chart
+- Key Observation Summary
+
+## Tech Stack
+
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+
+## Repository Contents
+
+- `Dashboard.py`
+- `requirements.txt`
+- `README.md`
+- `.gitignore`
+
+## How To Run The Dashboard
+
+### 1. Create And Activate A Virtual Environment
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
