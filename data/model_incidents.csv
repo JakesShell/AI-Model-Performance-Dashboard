@@ -1,0 +1,8 @@
+﻿incident_id,severity,model_id,issue,business_impact,recommended_action,status
+INC-1042,Critical,M004,Finance risk model exceeded governance risk threshold,High chance of incorrect account decisions and regulatory review,Block deployment and retrain with reviewed feature set,Open
+INC-1043,High,M003,Prediction drift crossed 20 percent watch threshold,Security alerts may be under-prioritized during active incidents,Run validation batch and compare against analyst labels,In Progress
+INC-1044,High,M007,Prompt injection exposure increased during red-team simulation,Threat explanation assistant may produce unsafe operational guidance,Harden system prompt and add input filtering,Open
+INC-1045,Medium,M002,Customer support LLM latency breached response SLA,Support agents may experience slower workflow and higher queue times,Optimize retrieval pipeline and cache high-volume answers,In Progress
+INC-1046,Medium,M006,Document copilot PII leakage risk requires privacy review,Internal assistant may expose sensitive content in summaries,Run privacy tests and restrict source access,Open
+INC-1047,Low,M001,Fraud model scheduled for monthly validation,No current production impact,Complete routine validation and update audit trail,Scheduled
+

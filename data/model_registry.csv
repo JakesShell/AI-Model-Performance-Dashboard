@@ -1,0 +1,9 @@
+﻿model_id,model_name,version,model_type,owner,use_case,deployment_stage,production_status,monthly_predictions,monthly_cost_usd,last_review
+M001,Atlas Fraud Sentinel,v2.1,Classifier,FinOps ML Team,Fraud detection for payment approvals,Production,Active,320000,14500,2026-05-02
+M002,Nova Support LLM,v1.4,LLM,Customer AI Team,Customer support response assistant,Shadow Testing,Pending Review,210000,26750,2026-05-01
+M003,Orion Security Triage,v3.0,Classifier,Security Operations,Security alert prioritization,Production,Watch,480000,17800,2026-04-29
+M004,Helix Finance Risk,v1.8,Regression,Risk Analytics,Credit and account risk scoring,Staging,Blocked,120000,9100,2026-04-26
+M005,Lumen Onboarding Match,v0.9,Classifier,People Systems,Employee onboarding placement recommendation,Pilot,Pending Review,55000,6200,2026-05-03
+M006,Vega Document Copilot,v1.2,LLM,Internal Platforms,Internal policy and document assistant,Production,Active,165000,31200,2026-04-30
+M007,Cipher Threat Explainer,v2.0,LLM,Security Enablement,Security incident explanation assistant,Staging,Risk Review,89000,13400,2026-05-04
+

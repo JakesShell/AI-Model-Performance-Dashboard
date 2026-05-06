@@ -1,4 +1,8 @@
-.venv/
+﻿.venv/
 __pycache__/
 *.pyc
-*.bak
+.streamlit/secrets.toml
+.DS_Store
+.env
+screenshots/*.tmp
+

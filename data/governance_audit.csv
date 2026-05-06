@@ -1,0 +1,9 @@
+﻿audit_id,model_id,reviewer,decision,review_date,notes
+AUD-9001,M001,AI Risk Council,Approved For Production,2026-05-02,Low drift and strong quality score. Continue weekly monitoring.
+AUD-9002,M002,Customer AI Review Board,Approved For Shadow Testing,2026-05-01,Useful candidate but latency and hallucination controls need improvement before full release.
+AUD-9003,M003,SecOps Governance,Watch,2026-04-29,Model remains useful but drift trend requires analyst validation.
+AUD-9004,M004,Compliance Review,Blocked By Governance,2026-04-26,Risk and compliance scores exceed acceptable thresholds.
+AUD-9005,M005,People Systems Review,Pending Risk Review,2026-05-03,Fairness and placement impact review required before broader pilot.
+AUD-9006,M006,Internal Platforms,Approved With Conditions,2026-04-30,Allowed in production with restricted document access and privacy monitoring.
+AUD-9007,M007,Security Review Board,Risk Team Review,2026-05-04,Prompt injection hardening required before production approval.
+
